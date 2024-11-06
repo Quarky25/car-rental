@@ -3,9 +3,7 @@
   }
   
   .hero {
-    background-image: url('https://images.unsplash.com/photo-1568066025-91d0a10c1c32');
-    background-size: cover;
-    background-position: center;
+    
     padding: 100px 20px;
     color: white;
     text-align: center;
@@ -112,4 +110,7 @@
     font-size: 1em;
   }
   
+  .featured {
+    text-align: center;
+  }
   

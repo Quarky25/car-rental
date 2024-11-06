@@ -15,6 +15,6 @@ export class CarOfTheMonthComponent {
     pricePerDay: 55,
     price: 45000,
     imageUrl:
-      'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/2015_Mitsubishi_Lancer_Evolution_%28US%29.jpg/1200px-2015_Mitsubishi_Lancer_Evolution_%28US%29.jpg',
+      'https://cdn.pixabay.com/photo/2016/10/04/05/17/mitsubishi-1713597_640.jpg',
   };
 }
