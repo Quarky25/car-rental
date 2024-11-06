@@ -4,6 +4,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { CarOfTheMonthComponent } from './car-of-the-month/car-of-the-month.component';
 import { CarListComponent } from './car-list/car-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 const routes: Routes = [
@@ -11,6 +12,7 @@ const routes: Routes = [
   {path: "about", component: AboutUsComponent},
   {path: "car", component: CarOfTheMonthComponent},
   {path: "cars", component: CarListComponent},
+  {path: "footer", component: FooterComponent}
  
 ];
 

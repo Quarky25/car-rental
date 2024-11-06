@@ -9,6 +9,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { CarListComponent } from './car-list/car-list.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { CarListComponent } from './car-list/car-list.component';
     NavbarComponent,
     AboutUsComponent,
     CarListComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

@@ -3,19 +3,42 @@
     background-color: #007bff;
     color: white;
     border: none;
-    font-size: 1.2em;
+    font-size: 1em;
     border-radius: 5px;
     cursor: pointer;
   }
   
   .amount-container {
-    width: 30vw;
+    width: 20vw;
     padding-top: 15px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
   }
   
+  .vip-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+  }
   .vip{
     padding-top: 15px;
+    padding-right: 50px;
   }
+
+  .navbar {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 15px 20px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+      
+    }
+  

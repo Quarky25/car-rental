@@ -10,7 +10,7 @@ import { CarService } from '../services/car.service';
 // ! defining featured cars that has the type Car and categories to implement a filter
 export class HomePageComponent implements OnInit {
  featuredCars: Car[] = []; //! Array for Car objects
-categories : string [] = []
+ categories : string [] = []
 
  constructor(private carService: CarService) {}
 

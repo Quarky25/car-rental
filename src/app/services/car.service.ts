@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Car } from '../models/car.model';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -38,16 +39,11 @@ export class CarService {
         'https://cdn.pixabay.com/photo/2016/10/04/05/17/mitsubishi-1713597_640.jpg',
     },
   ];
-  getCars() {
+  getCars(): Car[] {
     return this.cars;
   }
 
-
-  getCarbyId(id: number): Car | undefined {
-    return this.cars.find((car) => car.id === id);
-  }
-
-  getCarbyPrice(price: number): Car | undefined {
+  getCarbyPrice(price: number):  Car | undefined {
     return this.cars.find((car) => car.price === price);
   }
 
@@ -61,3 +57,5 @@ export class CarService {
   }
 
 }
+
+

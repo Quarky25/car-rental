@@ -8,6 +8,6 @@ body {
     background-size: cover;
     z-index: -1;
     max-height: 100%;
-    overflow: hidden;
+    overflow: auto;
     color: #333;
   } 
