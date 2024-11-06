@@ -19,17 +19,25 @@
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" routerLink="about">About us</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" routerLink="#">Something else here</a></li>
+              <li><a class="dropdown-item" routerLink="cars">Car list</a></li>
+              
             </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" aria-disabled="true">Disabled</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+        <div class="donation-result">
+          @if (clickCounter >= 200) {
+            <p class="vip"><strong>VIP</strong></p>
+          }
+        </div>
+        <div class="amount-container">
+        <p id="amount">Current Amount:{{clickCounter}}</p>
+      </div>
+        <input type="button" class="donate" (click)="clickEvent()" type="button" value="Donate 10€">
       </div>
     </div>
   </nav>
+
+  

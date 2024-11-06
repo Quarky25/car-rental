@@ -7,6 +7,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { CarOfTheMonthComponent } from './car-of-the-month/car-of-the-month.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+import { CarListComponent } from './car-list/car-list.component';
+
 
 @NgModule({
   declarations: [
@@ -14,13 +17,16 @@ import { AboutUsComponent } from './about-us/about-us.component';
     HomePageComponent,
     CarOfTheMonthComponent,
     NavbarComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    CarListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync('noop')
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,0 +1,13 @@
+<div class="container">
+  <h1>Available Cars for Rent</h1>
+  <div class="car-list">
+    <div class="car-card" *ngfor="let car of cars">
+      <img [src]="car.imageUrl" [alt]="car.make + ' ' + car.model" />
+      <h2>{{ car.make }} {{ car.model }} {{ car.year }}</h2>
+      <p>Price per day: €{{ car.pricePerDay }}</p>
+      <p [style.color]="car.price > 20000 ? 'red' : 'green'">
+        Price: €{{ car.price }}
+      </p>
+    </div>
+  </div>
+</div>

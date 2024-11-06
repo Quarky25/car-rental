@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './navbar.component.css'
 })
 export class NavbarComponent {
+clickCounter: number = 0;
 
+clickEvent(): void {
+  this.clickCounter += 10;
+}
 }

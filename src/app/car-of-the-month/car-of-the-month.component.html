@@ -1,1 +1,19 @@
-<p>car-of-the-month works!</p>
+<div class="car-of-the-month">
+  <h2>Car of the Month</h2>
+  <div class="car-card">
+    <img
+      [src]="carOfTheMonth.imageUrl"
+      alt="carOfTheMonth.make + ' ' + carOfTheMonth.model"
+    />
+    <div class="car-details">
+      <h3>
+        {{ carOfTheMonth.make }} {{ carOfTheMonth.model }}
+        {{ carOfTheMonth.year }}
+      </h3>
+      <p>Price per day: €{{ carOfTheMonth.pricePerDay }}</p>
+      <p [style.color]="carOfTheMonth.price > 20000 ? 'red' : 'green'">
+        Price: €{{ carOfTheMonth.price }}
+      </p>
+    </div>
+  </div>
+</div>
