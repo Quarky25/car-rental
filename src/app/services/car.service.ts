@@ -38,6 +38,24 @@ export class CarService {
       imageUrl:
         'https://cdn.pixabay.com/photo/2016/10/04/05/17/mitsubishi-1713597_640.jpg',
     },
+    {
+      id: 4,
+      make: 'Fiat',
+      model: 'Multipla',
+      year: 2020,
+      pricePerDay: 100,
+      price: 50000,
+      imageUrl: 'https://www.watson.ch/imgdb/06a1/Qx,B,0,0,1000,666,416,277,166,111/8893466556612473'
+    },
+    {
+      id:5,
+      make: 'BMW',
+      model: 'Clementine',
+      year: 2020,
+      pricePerDay: 500,
+      price: 1000000,
+      imageUrl: 'public\images\home-page\clementinesBMW.jpg'
+    }
   ];
   getCars(): Car[] {
     return this.cars;
