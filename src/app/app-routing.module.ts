@@ -7,12 +7,15 @@ import { CarListComponent } from './car-list/car-list.component';
 import { FooterComponent } from './footer/footer.component';
 
 
+
+
 const routes: Routes = [
   {path: "", component: HomePageComponent},
   {path: "about", component: AboutUsComponent},
   {path: "car", component: CarOfTheMonthComponent},
   {path: "cars", component: CarListComponent},
   {path: "footer", component: FooterComponent}
+
  
 ];
 
