@@ -54,7 +54,7 @@ export class CarService {
       year: 2020,
       pricePerDay: 500,
       price: 1000000,
-      imageUrl: 'src/public/images/home-page/clementinesBMW.jpg'
+      imageUrl: '/images/home-page/clementinesBMW.jpg'
     }
   ];
   getCars(): Car[] {

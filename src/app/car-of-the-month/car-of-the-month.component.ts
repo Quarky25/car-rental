@@ -8,13 +8,14 @@ import { Car } from '../models/car.model';
 })
 export class CarOfTheMonthComponent {
   carOfTheMonth: Car = {
-    id: 3,
-    make: 'Mitsubishi',
-    model: 'Evo',
-    year: 2016,
-    pricePerDay: 55,
-    price: 45000,
-    imageUrl:
-      'https://cdn.pixabay.com/photo/2016/10/04/05/17/mitsubishi-1713597_640.jpg',
+    
+      id:5,
+      make: 'BMW',
+      model: 'Clementine',
+      year: 2020,
+      pricePerDay: 500,
+      price: 1000000,
+      imageUrl: '/images/home-page/clementinesBMW.jpg'
+    
   };
 }
